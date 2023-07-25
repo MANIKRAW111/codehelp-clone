@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.wrapper{
+    background-color: #777C85;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.navbar{
+    background-color: #E1E2E4;
+    height: 150px;
+    width: 1600px;
+    gap: 120px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.logo{
+    background-image: url(bakerylogo.png);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    margin-right: 150px;
+}
+.nav-items{
+    color: #887474;
+    font-weight: 600;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.navbar button{
+    background-color: rgb(81, 23, 23);
+    color: white;
+    font-weight: 550;
+    height: 41px;
+    width: 140px;
+    font-size: 0.75rem;
+    border-radius: 5px;
+    margin-left: 150px;
+}
+.content1{
+    background-color: #E1E2E4;
+    height: 500px;
+    max-width: 1600px;
+    margin: 0 auto;
+    gap: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.para1{
+    width: 570px;
+    height:427px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.para1 h2{
+    text-decoration: underline;
+    text-shadow: 1px 1px 5px rgb(81, 23, 23);
+    line-height: 60px;
+}
+.para1 p{
+    line-height: 34px;
+}
+.img1{
+    background-image: url(teamchef2.jpg);
+    background-size: cover;
+    width: 570px;
+    height: 427px;
+    border-radius: 25px;
+}
+.content2{
+    background-color: #E1E2E4;
+    height: 600px;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.img2{
+    margin-right: 120px;
+    background-image: url(mypic.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 480px;
+    border-radius: 25px;
+}
+.para2{
+    margin-right: 80px;
+    width: 500px;
+    height:480px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.para2 h2{
+    text-decoration: underline;
+    text-shadow: 1px 1px 5px rgb(81, 23, 23);
+    line-height: 60px;
+}
+.para2 p{
+    line-height: 34px;
+}
+.foot-container{
+    gap: 200px;
+    background-color: white;
+    max-width: 1600px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.foot-logo{
+    padding-top: 20px;
+    margin-left: 60px;
+    height: 295;
+    width: 250px;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap; 
+}
+.img {
+    background-image: url(bakerylogo.png);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+}
+.panel1 p{
+    line-height: 54px;
+    font-weight: 550;
+    color: rgb(81, 23, 23);
+}
+.panel1 a{
+    line-height: 30px;
+    color: #887474;
+}
+.panel2 {
+    
+    width: 250px;
+}
+.panel2 p{
+    font-weight: 550;
+    color: rgb(81, 23, 23);
+    line-height: 54px;
+}
+.panel2 a{
+    line-height: 30px;
+    color: #887474;
+}
+.panel3 {
+    width: 80px;
+}
+.panel3 p{
+    font-weight: 550;
+    color: rgb(81, 23, 23);
+    line-height: 54px;
+}
+.panel3 a{
+    color: #887474;
+    line-height: 30px;
+}
+.social{
+    margin-top: 10px;
+}
